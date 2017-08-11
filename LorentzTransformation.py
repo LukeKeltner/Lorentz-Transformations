@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as mpatches
 from matplotlib.widgets import Slider, Button, RadioButtons
+#Plots a Lorentz Transformation with velocity slider
 
 #Creating the t array is not neccessary here but it is used for clarity.  
 x = np.linspace(0, 10, 400)
